@@ -1,0 +1,18 @@
+# 확장자가 .a / .log 인 파일 무시
+*.a
+*.log
+
+# 위의 내용을 적용하지만 lib.a는 무시 안 함
+!lib.a
+
+# 현재 디렉토리에 TODO 파일은 무시
+/TODO
+
+# build/ 디렉토리에 모든 파일 무시
+build/
+
+# doc/notes.txt 파일은 무시
+doc/*.txt
+
+# doc 디렉토리 하위의 모든 .txt 파일 무시
+doc/**/*.txt
